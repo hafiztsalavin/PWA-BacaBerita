@@ -1,0 +1,46 @@
+{
+  "name": "BACA BERITA",
+  "short_name": "AYO BACA BERITA",
+  "theme_color": "#16578b",
+  "background_color": "#2b618b",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": ".",
+  "icons" : [
+      {
+          "src": "/images/icon/circular-arrow-clock-16x16.png",
+          "sizes": "16x16",
+          "type": "image/png"
+      },
+      {
+          "src": "/images/icon/circular-arrow-clock-24x24.png",
+          "sizes": "24x24",
+          "type": "image/png"
+      },
+      {
+          "src": "/images/icon/circular-arrow-clock-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+      },
+      {
+          "src": "/images/icon/circular-arrow-clock-64x64.png",
+          "sizes": "64x64",
+          "type": "image/png"
+      },
+      {
+          "src": "/images/icon/circular-arrow-clock-128x128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+      },
+      {
+        "src": "/images/icon/circular-arrow-clock-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    },
+    {
+        "src": "/images/icon/circular-arrow-clock-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BACA BERITA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/icon/circular-arrow-clock-128x128.png" sizes="32x32" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<!-- <body onload="updateNews()"> -->
+<body >
+  
+  <header>
+    <h1 align="center">AYO BACA BERITA</h1>
+</header>
+<div>
+    <div class="row">
+        <div class="col s12 m3"></div>
+        <div class="col s12 m6">
+            <div class="card indigo darken-1">
+                <div class="card-content white-text">
+                    <center>
+                        <span class="card-title"><h2 align="center">Selamat Datang di Aplikasi Baca Berita</h2></span>
+                        <p>Baca berita menjadi lebih asik</p>
+                        <a href="about.html" class="btn btn-primary">About Develop</a>
+                        <a href="tentang.html" class="btn btn-primary">About App</a>
+                        <a href="tips.html" class="btn btn-primary">Tips</a>
+                        <div style="padding-top:10pt">
+                            <button onclick="updateNewsUS()" class='btn btn-info'>Internasional</button>
+                            <button onclick="updateNews()" class='btn btn-info'>Nasional</button>    
+                        </div>                 
+                    </center>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+    
+  </header>
+  <main></main>
+  <script src="app.js"></script>
+  <script src="sw.js"></script>
+</body>
+
+</html>
